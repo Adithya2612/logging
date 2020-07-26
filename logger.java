@@ -15,7 +15,7 @@ public class ConstructionLogger {
 			log.info("Enter the Area of the house in sq.ft");
 			area=sc.nextInt();
 			Construction con=new Construction(mtrl,area);
-			logMessage=con.cost();
+			logMessage=con.costCal();
 			log.info(logMessage);
 		}
 		else
